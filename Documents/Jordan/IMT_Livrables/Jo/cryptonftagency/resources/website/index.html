@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4K1JR928B"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-V4K1JR928B'); </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Lucky Foxes Club</title>
+    <link rel="shortcut icon" href="assets/images/XD FOX/main_logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- Animate CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-light main_header px-md-5">
+            <a class="navbar-brand" href="#"><img src="assets/images/XD FOX/main_logo.png" class="img-fluid mr-md-2">LUCKY FOXES CLUB</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse main_nav justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item mx-4 nav-link smoothScroll active" href="#">Home</a>
+                    <a class="nav-item mx-4 nav-link smoothScroll" href="#reward">Rewards</a>
+                    <a class="nav-item mx-4 nav-link smoothScroll" href="#roadmap">Roadmap</a>
+                    <a class="nav-item mx-4 nav-link smoothScroll" href="#creation">Creation</a>
+                    <a class="nav-item mx-4 nav-link smoothScroll" href="#faq">FAQ</a>
+                </div>
+                <div class="navbar-nav">
+                    <div id = "metamask">
+                        <a href="#" class="btn btn_light_orange">Connect MetaMask</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero my-lg-4">
+            <div class="container">
+                <div class="row flex-row-reverse align-items-center my-5">
+                    <div class="col-md-6 col-lg-5 offset-lg-1 mt-md-0 mt-lg-5">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/XD FOX/first.png" class="img-fluid mr-2" style="width: 40px;">
+                            <h6 class="mb-0"><strong>First NFT Art to rewards</strong></h6>
+                        </div>
+                        <h1 class="text-uppercase">welcome to the <br> lucky foxes club</h1>
+                        <p>Lucky Foxes Club is a collection of 10,000 NFT unique digital collectibles living on the ETH blockchain.</p>
+                        <p><strong>Purchasing a fox costs 0.065 ETH</strong></p>
+                        <div class="d-flex my-md-4 my-0">
+                            <form class="quantity-form">
+                                <i class="fa fa-angle-up qty-plus btn-quantity"></i>
+                                <input class="quantity quantity-input" type="text" name="quantity" value="1" min="1" max="20">
+                                <i class="fa fa-angle-down qty-minus btn-quantity"></i>
+                                <a href="#" id="mint" class="btn btn_theme_orange" >MINT YOUR FOX</a>
+                            </form>
+                        </div>
+                        <p><id="text_comment" class="text_custom"><strong>50</strong> Minted / <strong>50</strong>  Available <br>Get ready for the next phase...</br></id></p>
+                    </div>
+                    <div class="col-md-6 mb-md-0 mb-lg-0 mb-5 position-relative">
+                        <div class="owl-carousel hero_carousel owl-theme">
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_1_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_2_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_3_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_4_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_5_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_6_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_7.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_8.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_9.png" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="bg_dark_orange mid_box text-white text-center">
+                            <p>LUCKY FOXES NFT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners pb-5">
+            <div class="container">
+                <div class="row align-items-center text-center justify-content-center">
+                    <div class="col-12">
+                        <p><strong>Amazing Partner we work with</strong></p>
+                    </div>
+                    <div class="col-md-2 mb-md-0 mb-3">
+                        <img src="assets/images/XD FOX/partner_1.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-2 mb-md-0 mb-3">
+                        <img src="assets/images/XD FOX/partner_2.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-2 mb-md-0 mb-3">
+                        <img src="assets/images/XD FOX/partner_3.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-2 mb-md-0 mb-3">
+                        <img src="assets/images/XD FOX/partner_4.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-2 mb-md-0 mb-3">
+                        <img src="assets/images/XD FOX/partner_5.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reward my-5" id="reward">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-md-5">
+                        <div class="card reward_card bg_dark_orange p-lg-5 p-3">
+                            <p>This is how we do</p>
+                            <h4 class="text-uppercase">the<br>specs</h4>
+                            <p>Each lucky fox is unique and programmatically generated from over 150 possible traits.</p>
+                            <p>The foxes are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. Purchasing a fox costs 0.065 ETH.</p>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 col-6">
+                                    <h2>10 000</h2>
+                                    <h6>Lucky Foxes token</h6>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-6">
+                                    <h2>+600</h2>
+                                    <h6>Owners rewarded</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-6 offset-lg-1 mt-md-0 mt-lg-0 mt-3">
+                        <div class="reward_category">
+                            <h4 class="text-uppercase font-weight-bold">key <span class="text_custom"> rewards</span></h4>
+                            <P>Among all the different foxes, some of them are rarer than others but what is even better is that among them are 6 different collections which will bring you great rewards.</P>
+                            <div class="row text-center mt-5">
+                                <div class="col-4 col-lg-3">
+                                    <div class="reward_box">
+                                        <p>0,125 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-lg-3">
+                                    <div class="reward_box">
+                                        <p>0,25 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-lg-3">
+                                    <div class="reward_box">
+                                        <p>0,5 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row text-center my-80 mb-0">
+                                <div class="col-4 col-lg-3">
+                                    <div class="reward_box">
+                                        <p>1 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-lg-3">
+                                    <div class="reward_box">
+                                        <p>5 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-lg-3 position-relative reward_image">
+                                    <img src="assets/images/XD FOX/fox.png" class="img-fluid">
+                                    <div class="reward_box">
+                                        <p>10 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial bg_mid_orange my-5">
+            <div class="row">
+                <div class="col">
+					<div class="testimonial_box text-center text-white">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="community my-5">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-6 text-md-right text-center my-md-0 my-lg-0 my-4">
+                        <div class="community_box d-inline discord position-relative">
+                            <img src="assets/images/XD FOX/discord-2.png" class="img-fluid">
+                            <a href="https://discord.gg/5mH7pEUK6q" class="btn btn_purple">JOIN OUR COMMUNITY</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-md-left text-center my-md-0 my-lg-0 my-4">
+                        <div class="community_box d-inline twitter position-relative">
+                            <img src="assets/images/XD FOX/twitter-2.png" class="img-fluid">
+                            <a href="https://twitter.com/LuckyFoxesClub" class="btn btn_blue">JOIN OUR COMMUNITY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="roadmap my-5" id="roadmap">
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-7">
+                        <h3 class="font-weight-bold">LET'S START THE ADVENTURE THROUGH OUR <span class="text_custom">ROADMAP</span></h3>
+                    </div>
+                </div>
+                <div class="row my-5 justify-content-center">
+                    <div class="col-md-7">
+                        <h4 class="heading_custom">0%</h4>
+                        <p>So things be clear, all of the 10,000 artwork will be available for anyone, at anytime. There will be 10000/10000 not ever a single piece more.</p>
+                    </div>
+                </div>
+                <div class="row my-5 justify-content-center text-md-right">
+                    <div class="col-md-7">
+                        <h4 class="heading_custom">15%</h4>
+                        <p>The project it's going on. For thanks the support in our project we will airdropped 10 Foxes for the firsts owners!</p>
+                    </div>
+                </div>
+                <div class="row my-5 justify-content-center">
+                    <div class="col-md-7">
+                        <h4 class="heading_custom">35%</h4>
+                        <p>We believe that our project can be usefull for associations so we will donated 5 ETH for the National Fox Welfare Society</p>
+                    </div>
+                </div>
+                <div class="row my-5 justify-content-center text-md-right">
+                    <div class="col-md-7">
+                        <h4 class="heading_custom">50%</h4>
+                        <p>MID-SALES ! Amazing advancement! We will airdropped 20 specials Foxes to owners +1 ETH to 16 owners randomly</p>
+                    </div>
+                </div>
+                <div class="row my-5 justify-content-center">
+                    <div class="col-md-7">
+                        <h4 class="heading_custom">75%</h4>
+                        <p>It's time! The key Rewards start be distributed! Will you be lucky? WE HOPE SO! GOOD LUCK EVERYONE
+                        </p>
+                    </div>
+                </div>
+                <div class="row my-5 justify-content-center text-md-center">
+                    <div class="col-md-7">
+                        <h4 class="heading_custom">100%</h4>
+                        <p><strong>AMAZING WE ARE SOLD OUT!</strong> <br>Airdropped 20 Specials Foxes for owner and discord members</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="creation my-5" id="creation">
+            <div class="container-fluid">
+                <div class="row text-center justify-content-center">
+                    <div class="col">
+                        <h4 class="text-uppercase font-weight-bold">some of our <span class="text_custom">creations</span></h4>
+                        <div class="owl-carousel creation_carousel owl-theme py-5">
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_1_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_2_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_3_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_4_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_5_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_6_2.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_7.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_8.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/XD FOX/hero_9.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq my-5" id="faq">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <h4 class="font-weight-bold text-uppercase">an <span class="text_custom">faq</span> to brighten up all your shadow areas</h4>
+                        <p>What does the fox say? We're gonna be sure to answer all of your questions.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center my-4">
+                    <div class="col-md-6">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default p-3 my-2 active">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        How can I get a Fox ?
+                                        <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">Foxes will be available for purchase on our website through an initial sale. At the time of purchase, a randomly selected Fox will be minted on the blockchain and delivered to your wallet and your Opensea account.</div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default p-3 my-2">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Royalties Claim ?
+                                        </a>
+                                    </h4>
+
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">Foxes will be available for purchase on our website through an initial sale. At the time of purchase, a randomly selected Fox will be minted on the blockchain and delivered to your wallet and your Opensea account.</div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default p-3 my-2">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            How do I know If I won a Digital Frame ?
+                                        </a>
+                                    </h4>
+
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">Foxes will be available for purchase on our website through an initial sale. At the time of purchase, a randomly selected Fox will be minted on the blockchain and delivered to your wallet and your Opensea account.</div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default p-3 my-2">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            How do I actually purchase a Fox ?
+                                        </a>
+                                    </h4>
+
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpane4" aria-labelledby="headingFour">
+                                    <div class="panel-body">Foxes will be available for purchase on our website through an initial sale. At the time of purchase, a randomly selected Fox will be minted on the blockchain and delivered to your wallet and your Opensea account.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-md-5 pb-3 pt-0">
+        <div class="container my-4 position-relative">
+            <div class="row text-md-center footer_bottom align-items-end">
+                <div class="col-lg-5 mb-lg-0 mb-2 d-lg-none d-block">
+                    <div class="footer_upper text-md-center">
+                        <img src="assets/images/XD FOX/main_logo.png" class="img-fluid">
+                        <h4>LUCKY FOXES CLUB</h4>
+                    </div>
+                    <div class="align-items-center d-flex justify-content-around">
+                        <a href="index.html" class="text_normal smoothScroll">Home</a>
+                        <a href="#reward" class="text_normal smoothScroll">Rewards</a>
+                        <a href="#roadmap" class="text_normal smoothScroll">Roadmap</a>
+                        <a href="#creation" class="text_normal smoothScroll">Creation</a>
+                        <a href="#faq" class="text_normal smoothScroll">FAQ</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 mb-lg-0 mb-2">
+                    <a href="https://discord.gg/5mH7pEUK6q" class="text_purpule"><img src="assets/images/XD FOX/discord-2.png" class="img-fluid"><br>Join our Discord</a>
+                </div>
+                <div class="col-lg-2 mb-lg-0 mb-2">
+                    <a href="https://twitter.com/LuckyFoxesClub" class="text_blue"><img src="assets/images/XD FOX/twitter-2.png" class="img-fluid"><br>Join our twitter</a>
+                </div>
+                <div class="col-lg-5 mb-lg-0 mb-2 d-lg-block d-none">
+                    <div class="footer_upper text-md-center">
+                        <img src="assets/images/XD FOX/main_logo.png" class="img-fluid">
+                        <h4>LUCKY FOXES CLUB</h4>
+                    </div>
+                    <div class="align-items-center d-flex justify-content-around">
+                        <a href="index.html" class="text_normal smoothScroll">Home</a>
+                        <a href="#reward" class="text_normal smoothScroll">Rewards</a>
+                        <a href="#roadmap" class="text_normal smoothScroll">Roadmap</a>
+                        <a href="#creation" class="text_normal smoothScroll">Creation</a>
+                        <a href="#faq" class="text_normal smoothScroll">FAQ</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-lg-0 mb-2">
+                    <a href="mailto:contact@luckyfoxesclub.com" class="text_blue"><img src="assets/images/XD FOX/email.png" class="img-fluid"><br>contact@luckyfoxesclub.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!--special js scripts-->
+    <script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js"></script>
+    <script type="text/javascript" src="assets/js/utils.js"></script>
+</body>
+
+</html>
